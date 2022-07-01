@@ -1,0 +1,81 @@
+.resultado {
+    height: 100vh;
+    background-color: rgba(58, 33, 146, 0.288);
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxResultado {
+    width: 590px;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px #e5e5e594;
+    border-radius: 7px;
+    padding: 30px;
+    position: relative;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: -115px;
+}
+
+.nome {
+    text-align: center;
+}
+.nome span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vacinas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.boxVacina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.vacinaIcone {
+    padding: 5px 8px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.iconCheck {
+    color: rgb(2, 189, 42);
+}
+
+.iconCancel {
+    color: rgb(206, 15, 8);
+}
+
+.fechar {
+    width: 142px;
+    height: 42px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #3D5BB2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 30px;;
+}

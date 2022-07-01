@@ -1,0 +1,46 @@
+.boxInput {
+    width: 710px;
+    height: 65px;
+    background-color: #fff;
+    box-shadow: 0px 4px 14px #E5E5E5;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .iconInput {
+    color: #C4C4C4;
+    font-size: 25px;
+  
+  }
+  
+  .cpfInput {
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 0 30px;
+    font-size: 18px;
+    color: #939393;
+    background-color: transparent;
+  }
+  
+  .cpfInput:focus {
+    outline: none;
+  }
+  
+  .buttonInput {
+    width: 142px;
+    height: 42px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #3D5BB2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+  }
